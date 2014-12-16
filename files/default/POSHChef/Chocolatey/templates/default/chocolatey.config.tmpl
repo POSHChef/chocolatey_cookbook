@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<chocolatey>
+    <useNuGetForSources>[[ $node.Chocolatey.Settings.config.useNugetForSources.ToString() ]]</useNuGetForSources>
+    <checksumFiles>[[ $node.Chocolatey.Settings.config.checksumFiles.ToString() ]]</checksumFiles>
+    <virusCheck>[[ $node.Chocolatey.Settings.config.virusCheck.ToString() ]]</virusCheck>
+    <ksMessage>[[ $node.Chocolatey.Settings.config.ksMessage.ToString() ]]</ksMessage>
+    <sources>
+        <source id="chocolatey" value="https://chocolatey.org/api/v2/" />
+    </sources>
+</chocolatey>
